@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="pt-br"> <!-- Idioma -->
+
+	<head> <!-- Cabeçalho -->
+		
+		<!-- Exibe a página HTML corretamente -->
+		<meta charset="utf-8"> 
+
+		<!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
+		<meta name="viewport" content="width=device-width" initial-scale="1.0" />
+		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css">
+
+		<!-- Estilo CSS -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		
+		<title>Site de Noticias</title>
+
+	</head>
+
+	<body id="duas-colunas" class="home"> <!-- Corpo - classe home 1 -->
+
+		<div id="container"> <!-- div id container -->
+
+			<div id="topo"> <!-- div id topo -->			
+				<h1 class="logo"> Notícias </h1> <!-- Título com logo -->
+				<ul id="navegacao"> <!-- lista não ordenada - barra de navegação 1 -->					
+					<li class="primeiro"> <!-- lista itens class primeiro 1 -->
+						<a id="home" href="index.html"> Página inicial </a> <!-- id home -->
+					</li>
+					<li> <!-- lista itens 1 -->
+						<a id="brasil" href="index.html"> Brasil </a> <!-- id brasil -->
+					</li>
+					<li> <!-- lista itens 2 -->
+						<a id="internacional" href="index.html"> Internacional </a> <!-- id internacional -->
+					</li>
+					<li> <!-- lista itens 3 -->
+						<a id="economia" href="index.html"> Econômia </a> <!-- id economia -->
+					</li>
+					<li> <!-- lista itens 4 -->
+						<a id="saude" href="index.html"> Saúde </a> <!-- id saude -->
+					</li>
+					<li> <!-- lista itens 5 -->
+						<a id="fotos" href="index.html"> Fotos </a> <!-- id fotos -->
+					</li>
+				</ul> <!-- Fim lista não ordenada - barra de navegação 1 -->
+			</div> <!-- Fim div id topo -->
+
+			<div id="conteudo"> <!-- div id conteudo -->
+				<div id="primario"> <!-- div id primario -->
+
+					<div class="caixa-destaque"> <!-- div class caixa-destaque 1 -->
+						<h2> Destaque </h2>	<!-- título do destaque -->
+						<div class="caixa-conteudo"> <!-- div class caixa-conteudo 1 -->
+							<h3> Covid-19 </h3> <!-- título do conteúdo -->
+							<img class="imagem-principal" src="img/taxi.jpg" width="100%"> <!-- imagem principal 1 -->
+							<p> <!-- parágrafo 1 -->
+								Este é um site de notícias.
+								Foi criado uma div container e dentro dela foi colocado a div topo com o menu. <br>
+								Para fazer o menu utilizei ul (lista não ordenada) e dentro li (lista de itens).
+							</p>
+							<a href="saude.html"> Lei mais... </a> <!-- hyperlink 1 -->
+						</div> <!-- Fim div class caixa-conteudo 1 -->
+					</div> <!-- Fim div class caixa-destaque 1 -->
+
+					<div class="caixa"> <!-- div class caixa 1 -->
+						<h2> Mundo </h2> <!-- título -->
+						<div class="caixa-conteudo"> <!-- div class caixa do conteúdo 2 --> 
+							<ul id="lista-noticias"> <!-- div id lista de notícias - lista não ordenada 2 -->
+								<li> <!-- li 1 -->
+									<a href=""> <!-- hyperlink 2 -->
+										<img src="img/tecnologia.jpg" width="80"> <!-- imagem 2 -->
+										<h3>Novas Tecnologias</h3>
+										<p> <!-- parágrafo 2 -->
+											Div class caixa-conteúdo dentro da class Caixa. 
+										</p>
+									</a>
+								</li> <!-- Fim li 1 -->
+								<li> <!-- li 2 -->
+									<a href=""> <!-- hyperlink 3 -->
+										<img src="img/tecnologia.jpg" width="80"> <!-- imagem 3 -->
+										<h3>Novas Tecnologias</h3>
+										<p> <!-- parágrafo 3 -->
+											Lista não ordenada dentro da div class Caixa-conteúdo.
+										</p>
+									</a>
+								</li> <!-- Fim li 2 -->
+								<li> <!-- li 3 -->
+									<a href=""> <!-- hyperlink 4 -->
+										<img src="img/tecnologia.jpg" width="80"> <!-- imagem 4 -->
+										<h3>Novas Tecnologias</h3>
+										<p> <!-- parágrafo 4 -->
+											Lista de itens dentro da ul.
+										</p>
+									</a>
+								</li> <!-- Fim li 3 -->
+							</ul> <!-- Fim div id lista de notícias - lista não ordenada 2 -->
+						</div> <!-- Fim div class caixa do conteúdo 2 --> 
+					</div> <!-- Fim div class caixa 1 -->		
+
+				</div> <!-- Fim div id primario -->
+
+				<div id="secundario"> <!-- div id secundario -->
+
+					<div class="caixa-entrevista"> <!-- div class caixa de entrevista 1 -->
+						<h2> Última Entrevista </h2> <!-- título -->
+						<div class="caixa-conteudo"> <!-- div class caixa de conteúdo 3 -->						
+							<h3>Entrevista com Juliane Maran</h3> <!-- entrevistado -->
+							<img class="imagem-principal" src="img/doutor.jpg" width="100%">
+							<p>
+								Cademica de Sistemas de Informação e futura programadora web.
+							</p>
+							<a href=""> Leia mais... </a>
+						</div> <!-- div class caixa de conteúdo 3 -->
+					</div> <!-- Fim div class caixa de entrevista -->
+
+					<div class="caixa"> <!-- div class caixa 2 -->
+						<h2> Notícias Recentes </h2>
+						<div class="caixa-conteudo"> <!-- div class caixa conteúdo 4 -->
+							<ul id="lista-noticias"> <!-- lista não ordenada 3 -->
+								<li>
+									<a href="">
+										<img src="img/tecnologia.jpg" width="80">
+										<h3>Novas Tecnologias</h3>
+										<p>
+											Lista de itens dentro da ul.
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/tecnologia.jpg" width="80">
+										<h3>Novas Tecnologias</h3>
+										<p>
+											Lista de itens dentro da ul.
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/tecnologia.jpg" width="80">
+										<h3>Novas Tecnologias</h3>
+										<p>
+											Lista de itens dentro da ul.
+										</p>
+									</a>
+								</li>
+							</ul> <!-- Fim lista não ordenada 3 -->
+						</div> <!-- Fim div class caixa conteúdo 4 -->
+					</div> <!-- Fim div class caixa 2 -->
+
+				</div> <!-- Fim div secundario -->
+
+				<div id="lateral"> <!-- div id lateral -->					
+					<h2> Entrevistas </h2>
+					<div class="caixa-conteudo"> <!-- div class caixa conteudo 5 -->
+						<ul> <!-- lista ordenada 4 -->
+							<li> <a href=""> Entrevistado 1 </a> </li>
+							<li> <a href=""> Entrevistado 2 </a> </li>
+							<li> <a href=""> Entrevistado 3 </a> </li>
+							<li> <a href=""> Entrevistado 4 </a> </li>
+							<li> <a href=""> Entrevistado 5 </a> </li>
+						</ul> <!-- Fim lista ordenada 4 -->
+					</div> <!-- Fim div class caixa conteudo 5 -->
+				</div> <!-- Fim div id lateral -->
+
+				<div class="caixa"> <!-- div class caixa 3 -->
+					<h2> New </h2>
+					<div class="caixa-conteudo"> <!-- div class caixa-conteudo 6 -->
+						<form> <!-- formulário -->
+							<label for="email"> <!-- e-mail -->
+								E-mail:
+							</label>
+							<input type="text" name="email" id="email" placeholder="seuemail@email.com"> <!-- input 1 id email -->
+						</form>	<!-- Fim formulário -->
+					</div> <!-- Fim div class caixa-conteudo 6 -->
+					<div>
+						<input type="submit" class="submit" value="Cadastrar"> <!-- input 2 class submit -->
+					</div>
+				</div> <!-- Fim div class caixa 3 -->
+
+			</div> <!-- Fim div id conteudo 1 -->
+		</div> <!-- Fim div id container 1 -->
+
+		<div id="container-rodape" style="clear: both;">
+			<div id="rodape">
+				&copy; Copyright 2000-2020 Notícias Cidade
+			</div>
+		</div>
+
+	</body> <!-- Fim Corpo - classe home 1 -->
+</html>
