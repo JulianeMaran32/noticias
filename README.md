@@ -1,5 +1,6 @@
-# Site de Notícias
+# News Site
 
-Projeto criado no curso de Programação Web da UDEMY.
+* PT_BR: Projeto criado no curso de Programação Web da UDEMY.
+* EN: Project created in the UDEMY Web Programming course.
 
-Inclui fotos, notícias, abas para outros links do site.
+Includes photos, news, tabs for other website links.
